@@ -47,7 +47,7 @@ class Grades extends Component
     {
         $this->validateOnly($fields, $this->rules());
     }
-    
+
     public function edit($id)
     {
         $grades = \App\Models\grades::findOrFail($id);
@@ -67,7 +67,7 @@ class Grades extends Component
     public function update()
     {
         $this->validate($this->addRules());
-    
+
         // Update the data using Eloquent ORM
         $grades = \App\Models\grades::findOrFail($this->grade_id);
         $grades->name = $this->name;
@@ -81,7 +81,7 @@ class Grades extends Component
         $grades->Career_guidance = $this->Career_guidance;
         $grades->general_appreciation = $this->general_appreciation;
         $grades->save();
-    
+
         $this->resetFields2();
         session()->flash('success', 'Student Grades Edited Successfully');
         $this->submitted = false;
