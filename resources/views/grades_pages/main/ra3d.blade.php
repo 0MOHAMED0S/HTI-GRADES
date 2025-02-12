@@ -21,7 +21,7 @@
                         <h5 id="cardtitle" class="card-title">MOHAMMED SAYED ©️</h5>
                         <p class="card-text">BACK-END DEVOLOPER.</p>
                         <p class="card-text"><small style="color: rgb(65, 65, 224)"
-                                class="text-body-secondary"> PHP,LARAVEL,LIVEWIRE</small></p>
+                                class="text-body-secondary"> PHP,LARAVEL,MysQl</small></p>
                         <a style="margin-right: 0;" class="navbar-brand" target="_blank"
                             href="https://www.facebook.com/profile.php?id=100042720670770">
                             <img class="bi" width="30" height="30" role="img" aria-label="Bootstrap"
